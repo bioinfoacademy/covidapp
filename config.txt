@@ -1,0 +1,16 @@
+#Author: Vijay Nagarajan PhD
+#American Academy For Biomedical Informatics
+#License: GNU GPL
+
+##edit the config values per your system information
+#your cytoscape.sh install folder location goes here
+cytoscape_path="/Users/nagarajanv/Desktop/Cytoscape_v3.7.2/cytoscape.sh"
+
+#you jvm or jdk path location goes here
+jdk_path="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+
+#your input confirmed cases count file path goes in here
+input_confirmedcases="/Users/nagarajanv/Downloads/covid/time_series_19-covid-Confirmed-us-current.csv"
+
+#your region attributes file path goes in here
+input_regionattributes="/Users/nagarajanv/Downloads/covid/states-attributes.csv"
