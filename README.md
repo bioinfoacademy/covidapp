@@ -25,12 +25,16 @@ You can use the below command to check for PHP<br>
 php -v
 ```
 
-## Installation
+## Usage
 1. <b>Download</b><br>
 If you have git installed in your system, clone the covidapp github repo using the below command;<br>
 ```bash
-git clone 
+git clone https://github.com/bioinfoacademy/covidapp.git
 ```
-You can also just download the project folder
+You can also just download the project folder as a zip file and unzip it.
+<img src="download.png" width="100%" height="100%">
+2. <b>Configure</b><br>
+From the project 'covidapp' folder, open the config.txt file and edit it to have the correct path for cytoscape.sh, input data file, jdk-path and the attributes file. You could use the example data files in the project 'data' folder to test the app. You can also use the example data files to format your own data files.
+3. <b>Running 
 
 
