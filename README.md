@@ -32,7 +32,7 @@ If you have git installed in your system, clone the covidapp github repo using t
 git clone https://github.com/bioinfoacademy/covidapp.git
 ```
 You can also just download the project folder as a zip file and unzip it.
-<img src="download.png" width="100%" height="100%">
+<img src="download.png" width="100%" height="100%"><br>
 2. <b>Configure</b><br>
 From the project 'covidapp' folder, open the config.txt file and edit it to have the correct path for cytoscape.sh, input data file, jdk-path and the attributes file. You could use the example data files in the project 'data' folder to test the app. You can also use the example data files to format your own data files.<br><br>
 3. <b>Running</b><br>
@@ -40,7 +40,7 @@ With the config.txt file fixed, change to your covidapp directory and run the sc
 ```bash
 bash covid-pipeline.sh
 ```
-
+<br>
 4. <b>Results</b><br>
 The resulting tree image and the network image are written to the covidapp/images folder
 
