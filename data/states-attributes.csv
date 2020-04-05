@@ -1,0 +1,60 @@
+﻿StateKey,StateCodes,StateNames,AggressiveRank,AggressiveScore,AggressiveData1,AggressiveData2,AggressiveData3,RedBlue
+Alabama,AL,Alabama,31,40 - 45,35,50,1,red
+Alaska,AK,Alaska,19,45 - 50,14,15,49,red
+American Samoa,AS,American Samoa,,,,,,
+Arizona,AZ,Arizona,29,40 - 45,32,43,6,red
+Arkansas,AR,Arkansas,25,45 - 50,23,49,13,red
+California,CA,California,23,45 - 50,18,32,40,blue
+Colorado,CO,Colorado,35,40 - 45,37,2,41,swing
+Connecticut,CT,Connecticut,2,>=60,2,8,18,blue
+Delaware,DE,Delaware,18,45 - 50,28,11,12,
+District of Columbia,DC,District of Columbia,10,55 - 60,8,33,26,blue
+Florida,FL,Florida,37,35 - 40,33,41,45,swing
+Georgia,GA,Georgia,39,35 - 40,46,30,7,red
+Guam,GU,Guam,,,,,,
+Hawaii,HI,Hawaii,45,35 - 40,36,35,47,blue
+Idaho,ID,Idaho,38,35 - 40,40,16,37,red
+Illinois,IL,Illinois,17,45 - 50,19,17,39,blue
+Indiana,IN,Indiana,42,35 - 40,45,24,21,
+Iowa,IA,Iowa,34,40 - 45,38,6,9,swing
+Kansas,KS,Kansas,44,35 - 40,50,19,17,red
+Kentucky,KY,Kentucky,40,35 - 40,39,45,32,red
+Louisiana,LA,Louisiana,22,45 - 50,16,44,36,red
+Maine,ME,Maine,33,40 - 45,26,26,42,blue
+Marshall Islands,MH,Marshall Islands,,,,,,
+Maryland,MD,Maryland,3,>=60,3,18,2,blue
+Massachusetts,MA,Massachusetts,6,>=60,9,10,3,blue
+Michigan,MI,Michigan,27,45 - 50,31,29,10,blue
+Micronesia,FM,Micronesia,,,,,,
+Minnesota,MN,Minnesota,8,55 - 60,17,1,4,blue
+Mississippi,MS,Mississippi,50,30 - 35,48,51,28,red
+Missouri,MO,Missouri,46,35 - 40,47,38,29,red
+Montana,MT,Montana,26,45 - 50,15,23,50,red
+Nebraska,NE,Nebraska,36,40 - 45,43,14,8,red
+Nevada,NV,Nevada,48,30 - 35,34,37,51,swing
+New Hampshire,NH,New Hampshire,11,50 - 55,12,5,25,swing
+New Jersey,NJ,New Jersey,7,>=60,6,28,24,blue
+New Mexico,NM,New Mexico,14,50 - 55,10,46,38,
+New York,NY,New York,4,>=60,4,40,5,blue
+North Carolina,NC,North Carolina,30,40 - 45,29,39,16,swing
+North Dakota,ND,North Dakota,20,45 - 50,27,3,31,red
+Northern Marianas,MP,Northern Marianas,,,,,,
+Ohio,OH,Ohio,12,50 - 55,11,34,23,swing
+Oklahoma,OK,Oklahoma,47,35 - 40,44,47,34,red
+Oregon,OR,Oregon,28,45 - 50,21,27,46,blue
+Palau,PW,Palau,,,,,,
+Pennsylvania,PA,Pennsylvania,21,45 - 50,22,25,33,swing
+Puerto Rico,PR,Puerto Rico,,,,,,
+Rhode Island,RI,Rhode Island,1,>=60,1,22,43,blue
+South Carolina,SC,South Carolina,41,35 - 40,42,36,22,red
+South Dakota,SD,South Dakota,16,45 - 50,20,20,30,red
+Tennessee,TN,Tennessee,43,35 - 40,41,42,35,red
+Texas,TX,Texas,49,30 - 35,51,31,19,red
+Utah,UT,Utah,15,50 - 55,24,4,15,red
+Vermont,VT,Vermont,9,55 - 60,7,7,44,blue
+Virgin Islands,VI,Virgin Islands,,,,,,
+Virginia,VA,Virginia,24,45 - 50,30,13,11,swing
+Washington,WA,Washington,5,>=60,5,9,14,blue
+West Virginia,WV,West Virginia,31,40 - 45,25,48,20,red
+Wisconsin,WI,Wisconsin,13,50 - 55,13,12,27,swing
+Wyoming,WY,Wyoming,51,30 - 35,49,21,48,red
