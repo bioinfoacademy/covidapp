@@ -10,7 +10,7 @@ cytoscape_path="/Users/nagarajanv/Desktop/Cytoscape_v3.7.2/cytoscape.sh"
 jdk_path="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 
 #your input confirmed cases count file path goes in here
-input_confirmedcases="/Users/nagarajanv/Downloads/covid/time_series_19-covid-Confirmed-us-current.csv"
+input_confirmedcases="data/time_series_19-covid-Confirmed-us-current.csv"
 
 #your region attributes file path goes in here
-input_regionattributes="/Users/nagarajanv/Downloads/covid/states-attributes.csv"
+input_regionattributes="data/states-attributes.csv"
