@@ -6,6 +6,10 @@
 #source configuration info
 source config.txt
 
+#r library directory
+mkdir -p ~/R/library
+echo "R_LIBS=~/R/library" >> ~/.Renviron
+
 #echo user data
 printf "\n"
 echo "Cytoscape Path: $cytoscape_path"
@@ -33,6 +37,7 @@ sleep 60
 
 #run rscript
 Rscript scripts/covidapp.R
+sleep 15
 
 #close cytoscape and exit
 xtermid=$(pgrep xterm)
