@@ -24,7 +24,12 @@ You can use the below command to check for PHP<br>
 ```bash
 php -v
 ```
-
+5. <b>Xterm</b><br>
+If its not already available, please install xquartz for mac, to use the xterm in Mac OS.<br>
+In the debian linux, you can install xterm using the below command;<br>
+```bash
+sudo apt install xterm
+```
 ## Usage
 1. <b>Download</b><br>
 If you have git installed in your system, clone the covidapp github repo using the below command;<br>
