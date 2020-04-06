@@ -15,16 +15,13 @@ if(!"ape" %in% installed.packages()){
 if(!"igraph" %in% installed.packages()){
   install.packages("igraph", repos = "http://cran.us.r-project.org")
 }
-if(!"svglite" %in% installed.packages()){
-  install.packages("svglite", repos = "http://cran.us.r-project.org")
-}
 
 #load libraries
 library(dtw)
 library(ape)
 library(igraph)
 library(RCy3)
-library(svglite)
+#library(svglite)
 
 # Read in the confirmed cases meta data
 x <- scan("data/time_series_current_meta.csv", what="", sep="\n")
@@ -70,7 +67,7 @@ dm <- dist(w, method= "DTW")
 summary(dm)
 hc <- hclust(dm, method="average")
 summary(hc)
-svglite("images/covid-19-current-dtw-tree-meta.svg")
+svg("images/covid-19-current-dtw-tree-meta.svg")
 plot(hc, hang=0.1,cex=0.6)
 dev.off()
 
