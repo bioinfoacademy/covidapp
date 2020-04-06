@@ -3,17 +3,20 @@
 
 #install packages
 if(!"RCy3" %in% installed.packages()){
-  install.packages("BiocManager")
+  install.packages("BiocManager", repos = "http://cran.us.r-project.org")
   BiocManager::install("RCy3")
 }
 if(!"dtw" %in% installed.packages()){
-  install.packages("dtw")
+  install.packages("dtw", repos = "http://cran.us.r-project.org")
 }
 if(!"ape" %in% installed.packages()){
-  install.packages("ape")
+  install.packages("ape", repos = "http://cran.us.r-project.org")
 }
 if(!"igraph" %in% installed.packages()){
-  install.packages("igraph")
+  install.packages("igraph", repos = "http://cran.us.r-project.org")
+}
+if(!"svglite" %in% installed.packages()){
+  install.packages("svglite", repos = "http://cran.us.r-project.org")
 }
 
 #load libraries
@@ -21,13 +24,14 @@ library(dtw)
 library(ape)
 library(igraph)
 library(RCy3)
+library(svglite)
 
 # Read in the confirmed cases meta data
 x <- scan("data/time_series_current_meta.csv", what="", sep="\n")
 head(x)
 
 # Read region attribute csv
-regiona <- read.csv(file='data/states-attributes.csv')
+regiona <- read.csv(file='data/states-attributes.csv',check.names=FALSE)
 head(regiona)
 
 # Read region current cases data
@@ -66,7 +70,7 @@ dm <- dist(w, method= "DTW")
 summary(dm)
 hc <- hclust(dm, method="average")
 summary(hc)
-svg("images/covid-19-current-dtw-tree-meta.svg")
+svglite("images/covid-19-current-dtw-tree-meta.svg")
 plot(hc, hang=0.1,cex=0.6)
 dev.off()
 
@@ -85,7 +89,7 @@ cygraph=createNetworkFromIgraph(myigraph)
 renameNetwork(title = "covid-19-network")
 
 #load states attribute data
-loadTableData(data = regiona, data.key.column = "StateKey")
+loadTableData(data = regiona, data.key.column = "StateNames")
 
 #load states current count data
 loadTableData(data = currentdata, data.key.column = "Province/State")
@@ -129,6 +133,9 @@ exportImage('images/covid-19-transmission-similarity-dtw-network','SVG')
 
 #save cytoscape session
 saveSession(filename = "images/covid-19-network")
+
+#wait for saving session
+Sys.sleep(30)
 
 #close cytoscape session
 closeSession(FALSE)
